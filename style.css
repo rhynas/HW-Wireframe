@@ -1,0 +1,69 @@
+/*Week 1 (Easier) Assignment - Building a Wireframe*/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body{
+	background: #777;
+	font-family: 'Arial','Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	color: #777;
+	width: 960px;
+	
+}
+
+header, nav, footer{
+	background: #ebebeb;
+	padding: 10px;
+	margin-bottom: 5px;
+	clear: both;
+}
+
+/*header, nav, footer{
+	clear: both;
+}*/
+
+/*#h123, #paragraph, */
+
+#section{
+	width: 495px;
+	float: left;
+}
+#aside{
+	width: 450px;
+	height: 265px;
+	padding: 10px;
+/*	margin-left: 10px; */
+	margin-right: 0;
+	float: right;
+
+}
+
+#aside, #section{
+	margin-top: : 10px;
+	margin-bottom: 10px;
+
+	background: #ebebeb;
+	padding: 10px;
+
+}
+
+article, #headerArticle{
+	background: #777;
+	margin-bottom: 5px;
+	color: #ebebeb;
+	height: 50%;
+}
+
+#h123, #paragraph{
+	margin: 0px 10px 10px 10px;
+	padding: 1px;
+	color: #777;
+	background: #ebebeb; 
+	clear: both;
+
+}
+
+
